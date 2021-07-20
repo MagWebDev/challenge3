@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-color: hsl(185, 75%, 39%);
+    background-repeat: no-repeat no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+.container {
+ 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.card {
+    height: 450px;
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+.card-top {
+    height:150px;
+    width: 400px;
+    background-color: white;
+    background-image: url(images/bg-pattern-card.svg);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.card-img {
+    position: relative;
+    text-align: center;
+    top: -50px;
+    left: 0px;
+    
+}
+.card-img img {
+border-radius: 50px;
+}
+
+.name {
+    margin-top: -20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.name p{
+    padding-top:10px;
+}
+
+.socials {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    text-align: center;
+}
+span {
+    font-weight: 400;
+}
